@@ -21,7 +21,7 @@ local common = import 'common.libsonnet';
       platform: {
         properties: [
           { name: "OSFamily", value: "Linux" },
-          { name: "container-image", value: "docker://marketplace.gcr.io/google/rbe-ubuntu16-04@sha256:f6568d8168b14aafd1b707019927a63c2d37113a03bcee188218f99bd0327ea1"}
+          { name: "container-image", value: "docker://l.gcr.io/google/rbe-ubuntu16-04@sha256:f6568d8168b14aafd1b707019927a63c2d37113a03bcee188218f99bd0327ea1"}
         ]
       },
       defaultExecutionTimeout: '1800s',
